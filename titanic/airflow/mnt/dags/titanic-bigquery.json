@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mypim-410508",
+  "private_key_id": "aa194259c11f5cd309054d064034ed04ead761b0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6B9BqKMEDkL/8\n0uhWA/DHrtg0Bvf56k7/a9jFMp6y4cqruDe7Hg7ZGsbSUylDvXXBiOhGQq06wAl2\nK6Ljhv9CozMWHqitUVd+8qsxD9YnfFyTe/llARoNXUa4+gLHtktHN7AL7Jw6z9Pc\noA58aj5EqYl/DEDHzrjUWZrNElwp5uMfgZCAkGQ6UFR5jW4bBa2zK0J3aZ1K1nad\nKnWenIhXQsnGdmQ/P1HmrVzD8zXyPYDvAeDRye7W0HE0NTvlHjnIYsWYwvn+xlcq\nbnM/zEBVtDjey6f4KVS5yF7w8xxh1tR9p647oqPegw32xZUEaSGWf1unFvZP0ky8\njzPDkGk5AgMBAAECggEAQbT43EZAxm2eIkKsZZVGuoD7RIUhmVg1RupkymIyw6QU\n3cpXhPP88poOl8Nf09lbelxNDmQGo7WooeCPzCWmi3bxWGLD2VPdv60e4llhntjC\nKiWj1RUqioXjsPo9eSTeOe1ldRDBrdQyVL8D3tX34HCxa/p79xcBGZ/8mWpeuz2D\n2W0g+GUE2OND21/jUQJZKinaDVpTCYy4IJrAOuwJbGKYaTxmP39nRW980YwKPzgA\njl3yQZMKM2Wk6s1jF9vIWhgsK5dLO4ZpBWLNAP1cJs+95ltEwSrqlfcMGyls4a/k\n705nIzTJlCPpm8penevS5nVKCyWuLGHHGbpCx/A88QKBgQDbeKPIb7CTMBOLAWsI\nsuPpQUabBLQ4tsIcHsLM1bLgU8WGAtcsBIYf9Q1iWVG1V9MYNgU3R/QjJeofs2iG\nhTLCyLJNq2z1n276vmsg4ENVj4q6bDvPtIHt9THwcaaxCE0Gf22x9L+yGjyp4w2n\nI+xbpHhGjd/+DAJY4oYBs7OBXwKBgQDY/k/uUGvE2oxzIi89RhhddI7rlPz2099A\nHSPVqr11qssznpYoINOS8k1c1STu2aZaUcERaZJs0dunXMPiZO5WggzazLHpF1lv\nIu9u0efhqMozC1gHBJ6lLTwISQCvWhrUPUWMbYGdOCjdjiq99wV07A22Yc+St81v\nzzodu5okZwKBgHlatcWI7KwWc1fzismekSNTMsVYzoZll+OQpso4h9Y+vAOj4nK2\ndauKBsKQ/Ps2+sRyamPs53Pf7RtmSq/HSxAlhWIpHfCbHfSMAhSFrPXMjzsRyejJ\nuOZpJBn93dwZ6O1k3LT/zlee5lhR8iSvWmw5/z+UB30kCtA3QT4DrYglAoGASN83\nBqh5WLWwfyXWyXQV0KTJLnJtdZL3oXdnxmS9lZuS/DXg5X8Irouy0V8/NPtg82oL\nNYbHxsW/R3hOzGPq6qBoIr6lbMsLnNgVopjZj534saW4nTq+8Ge9hmbF1R2kbuxY\nw+0unxbyGl2ZGwyvB3IStNIqPHJ/inIEaWHMRTcCgYEAw2yaMPcezHG+gYk6RGWJ\nHJAcfwxioMoUrhlKBHuJmlW8h7GPV++Zxoi66aiPhv158xsaKUsfXlXu3iGPEuS6\ncNo5YMS5XpVKbanLOd6Hgh1hwRYM7NNzxrca9X0xlotbvPMUi3Sm5wjsCX6auWo1\nv5q4KJmin1zy4WgNibgPdLg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "titanic-bigquery@mypim-410508.iam.gserviceaccount.com",
+  "client_id": "111318392893270949264",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/titanic-bigquery%40mypim-410508.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
