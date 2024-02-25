@@ -16,11 +16,11 @@ credentials_gcs = service_account.Credentials.from_service_account_info(
     service_account_info_gcs
 )
 
-# keyfile_bigquery = "YOUR_KEYFILE_PATH_FOR_GCS_TO_BIGQUERY"
-# service_account_info_bigquery = json.load(open(keyfile_bigquery))
-# credentials_bigquery = service_account.Credentials.from_service_account_info(
-#     service_account_info_bigquery
-# )
+keyfile_bigquery = "mypim-410508-gcs-bigquery-admin.json"
+service_account_info_bigquery = json.load(open(keyfile_bigquery))
+credentials_bigquery = service_account.Credentials.from_service_account_info(
+    service_account_info_bigquery
+)
 
 project_id = "mypim-410508"
 
@@ -43,25 +43,25 @@ blob.upload_from_filename(file_path)
 
 
 # Load data from GCS to BigQuery
-# bigquery_client = bigquery.Client(
-#     project=project_id,
-#     credentials=credentials_bigquery,
-#     location=location,
-# )
-# table_id = f"{project_id}.breakfast.{data}"
-# job_config = bigquery.LoadJobConfig(
-#     skip_leading_rows=1,
-#     write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE,
-#     source_format=bigquery.SourceFormat.CSV,
-#     autodetect=True,
-# )
-# job = bigquery_client.load_table_from_uri(
-#     f"gs://{bucket_name}/{destination_blob_name}",
-#     table_id,
-#     job_config=job_config,
-#     location=location,
-# )
-# job.result()
+bigquery_client = bigquery.Client(
+    project=project_id,
+    credentials=credentials_bigquery,
+    location=location,
+)
+table_id = f"{project_id}.breakfast.{data}"
+job_config = bigquery.LoadJobConfig(
+    skip_leading_rows=1,
+    write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE,
+    source_format=bigquery.SourceFormat.CSV,
+    autodetect=True,
+)
+job = bigquery_client.load_table_from_uri(
+    f"gs://{bucket_name}/{destination_blob_name}",
+    table_id,
+    job_config=job_config,
+    location=location,
+)
+job.result()
 
-# table = bigquery_client.get_table(table_id)
-# print(f"Loaded {table.num_rows} rows and {len(table.schema)} columns to {table_id}")
+table = bigquery_client.get_table(table_id)
+print(f"Loaded {table.num_rows} rows and {len(table.schema)} columns to {table_id}")

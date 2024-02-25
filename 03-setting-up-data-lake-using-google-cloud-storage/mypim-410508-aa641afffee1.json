@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mypim-410508",
+  "private_key_id": "aa641afffee13a4702e641209d01da8f2b49b883",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4HW+pY/UZLfvO\nefcmyXju0CZX6C3Gkasx0hgJmYb63ibL6hUukGUoYFB7WQ1RjNV8RvBZ8+xiv9rD\nJGnNXnqLH8ykDKW92Q61yznDYl1EAGgTLrMY9hI8kF1G/Ds2CvwBp1zHkV0HAK0O\neJNyQo8HOdxp6W7J3z90vYiuLUhAYdp9bXsHSvJHChn68TCkewYLHDnjI7c041oJ\nmz674Xrt2xX3L/Zv5/DzO44q7gfngBiHRyPl3kY/L2/eERm/fltAbL0qeVd7ZFXV\noB9wrhhBjS6HVemcgGCKf/PzLKwdCGkbF1ZisAhXoXw5L7+fntgKIwxm+cl31k1Q\n9hYCRoZpAgMBAAECggEAGnfzjJOX3IXVfyqI6HpAY3y9y8Ik3+N4jBIFw040ry4Z\namlS9ZMWp9uo1lgdZ7g/x2e0uAnZgEd6ngvxwJow3dK1gG69CR0CVgpLBJbIjQp4\nloFj3VZ1lWAKY4vGwLngNCX+WvEVQaN26ESsqy7RvG/fYG6JrzCOwSwE+/Kl7Mil\nY998+BWcMSvKevuuj7kdKBcY2hKU+pvnCnhZzSqECQJdHGPQ6QmHByVUBA6krO9e\n0zprso3STZcgdpVgaDUlBSIKM6Qv+n0+4DeBMkgOozdXJrJw9S8ARt5V6+GVtdZT\n3Etni/Iq6+SscErMq5zE2J0cP43r1BKN859cv63+TQKBgQD9RelHe1TQo4p1QBMk\nPdq64q4i0Piu+cIDfDkRgCM2EKnMT/hSTP8e47B0lqoJrLhU/xazW9wQ2qYlu9pI\nwqbWSIypjNeXDgaAjpmxx6cf/SKffiAYdKBM9NrN0GR/N9WnZNLprtkUvmI+2oGk\n73X2/UYSlvmXT50jWAmOCPIf0wKBgQC6GOgWd4D18/ZyRQw3SyWEru5CXlhOsLjm\nk+vR14RzqoZuO4xO5QKYa8DiyDVfgXOxYiItN9QDEbJz7A6KHig6/bcsr32yTD0N\n8ccuIVgrUu94p58f6vL1CdKO4DK+YwKLcVzImINSUQcBBeeU9RTlSaNEescNl/gK\n39hjFUTXUwKBgQCwNKJeq+xPF2htuH1Yunvhh3F1IYPSYErdl+AwT8CvjZpEXeK6\nh3z65ZfPFT8JahP4dlw5vo/1Xdk36WCtPFdMP780+prHKefWKt+88tVQCRG8esgj\nm4gm4jcT94bjh1nqkte14oJ+zxGU/voxYLPmeUD2D/lnjukZPNew7IJfJwKBgAy6\nG1U+AwHPF3GlKzq01vIGDKFZVmy7RUnvn9cQCCzo4pyzUdsrakwGQoC/9HZ9oe3l\nqjSxdrxm/29SG4Ryn4m5REe4EL6a3CoR+O88tIzx9RKpVAaYyNjdPRssVgwTNV9X\n92J4m7KLfBEj2DylrjIoIRRT2T0iwYHs4R2VnMmlAoGACM7jFAx3jjb1NOHntOMR\nzBNHW9lK50A75zU9vloF3k6s/S+E7wSlnqIktV9yCMIE6CIZXtXRQsX9Ua8RpRGE\ns/9eXY55REEnNJu2cMYsdUmiUtBjsxW20GlLo3MEf1RNs8XxgpySKIH10tp7PbWJ\n+i9S5VfDEhiVcnvR0lfR100=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pim-de-workshop-for-gcs-admin@mypim-410508.iam.gserviceaccount.com",
+  "client_id": "102357963830733276900",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pim-de-workshop-for-gcs-admin%40mypim-410508.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
