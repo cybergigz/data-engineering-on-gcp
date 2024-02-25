@@ -19,7 +19,7 @@ def _extract_from_mysql():
 
     df = pd.read_sql("select * from titanic", con=conn)
     print(df.head())
-    df.to_csv("/opt/airflow/dags/titanic_dump.csv", header=None, index=False)
+    df.to_csv("/opt/airflow/dags/titanic_dump.csv", index=False)
 
 with DAG(
     "titanic_sql_to_bigquery_pipeline",
