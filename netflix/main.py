@@ -4,7 +4,7 @@ import streamlit as st
 from google.cloud import bigquery
 from google.oauth2 import service_account
 
-st.title("Titanic Survivor Predictor")
+st.title("Netflix")
 
 # data = st.slider("Test", 0, 5, 1)
 # print(data)
